@@ -1,0 +1,121 @@
+/* Configure master styles */
+body{
+	margin:0;
+	font-family:Muli, sans-serif;
+}
+*{
+	font-size:34px;
+	min-height:1em;
+	vertical-align:middle;
+	user-select: none;
+}
+/* Customise .nav */
+ul.nav{
+/* Style font-size and line-height here to suit */	
+	font-size:1.5em; /* An em is the width of the letter m */
+	line-height:1.5em; /* Vertical aligns a single line of text */
+	}
+ul.nav li{
+/* Style size and position of the list boxes that hold each <a> tag  */		
+	width:auto; /* Fit to content */
+	margin:0;
+	padding:0 0.25em;
+	text-align:center;
+}
+
+ul.nav a{
+/*  Set default link color  */	
+	color:#000000;
+}
+ul.nav a:hover{
+/* Set default link hover effects */	
+	text-decoration:underline;
+}
+
+/* Font adjustments */
+.expanded2{
+	letter-spacing:0.15em;
+}
+.italics{
+font-style:italic;
+}
+.tshadow{
+  text-shadow:3px 3px 4px #000;
+}
+.ltshadow{
+  text-shadow:1px 1px 1px #fff;
+}
+/* Colour Scheme - House Style - Make your own */
+	.bg-rust{
+		background-color:#6A2000;
+	}
+	.bg-orange{
+		background-color:#ffe6b3;
+	}
+	.bg-black{
+		background-color:#000;
+	}
+	.silver{
+		color:#bdbdbd;
+	}
+	.shadow{
+		background:rgba(0,0,0,0.6);
+		transition: background 0.7s;
+	}
+
+	.txt-lrg{
+		font-size:3em;
+	}
+	.txt-med{
+		font-size:2em;
+	}
+	.txt-std{
+		font-size:1.7em;
+	}
+	.txt-sml{
+		font-size:1em;
+	}
+	.txt-vsml{
+		font-size:.7em;
+	}
+/* 
+IDs
+Override classes/defaults if you need unique styles.
+*/
+
+#wrapper{
+	min-width:100%;
+	max-width:100%;
+	margin:auto;
+	background:#000000;
+	background-image:url(../assets/background.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#thumbs{
+	width:420px;
+	max-width:420px;
+	margin:auto;
+}
+#thumbs img{
+	/* display:block; */
+	width:210px;
+	max-width:210px;
+	vertical-align:middle;
+	/* float:left; */
+}
+.share{
+	background-color:#0000ff;
+	color:#fff;
+	padding:0.5em;
+	font-family:"Courier New";
+}
+
+#table{
+	font-family:"Courier New";
+	font-size:24px;
+	line-height:20px;
+	padding:1em;
+	margin-top:2em;
+}

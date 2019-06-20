@@ -1,0 +1,12 @@
+{
+	"word":"",
+	"letter":"",
+	"player":"0",
+	"mode":"",
+	"status":"set",
+	"number":"",
+	"players":
+	  [],
+	"played":
+	  []
+}
